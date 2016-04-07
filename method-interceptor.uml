@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor</OriginalElement>
+  <nodes>
+    <node x="806.816287878788" y="158.0">org.springframework.core.Ordered</node>
+    <node x="442.5" y="395.0">org.springframework.aop.interceptor.CustomizableTraceInterceptor</node>
+    <node x="245.5" y="395.0">org.springframework.aop.interceptor.SimpleTraceInterceptor</node>
+    <node x="964.0217803030304" y="158.0">org.springframework.beans.factory.config.SmartInstantiationAwareBeanPostProcessor</node>
+    <node x="677.316287878788" y="158.0">org.springframework.beans.factory.Aware</node>
+    <node x="810.5217803030304" y="237.0">org.springframework.core.PriorityOrdered</node>
+    <node x="256.18465909090907" y="316.0">org.springframework.aop.interceptor.AbstractTraceInterceptor</node>
+    <node x="982.0217803030303" y="79.0">org.springframework.beans.factory.config.InstantiationAwareBeanPostProcessor</node>
+    <node x="1188.3541666666665" y="0.0">org.springframework.beans.factory.config.BeanPostProcessor</node>
+    <node x="313.18465909090907" y="237.0">org.aopalliance.intercept.MethodInterceptor</node>
+    <node x="2.5" y="395.0">org.springframework.aop.interceptor.AbstractMonitoringInterceptor</node>
+    <node x="336.68465909090907" y="158.0">org.aopalliance.intercept.Interceptor</node>
+    <node x="0.0" y="474.0">org.springframework.aop.interceptor.PerformanceMonitorInterceptor</node>
+    <node x="464.18465909090907" y="316.0">org.springframework.scheduling.annotation.AnnotationAsyncExecutionInterceptor</node>
+    <node x="639.816287878788" y="237.0">org.springframework.beans.factory.BeanFactoryAware</node>
+    <node x="853.2717803030304" y="316.0">org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor</node>
+    <node x="350.18465909090907" y="79.0">org.aopalliance.aop.Advice</node>
+    <node x="957.5217803030304" y="237.0">org.springframework.beans.factory.config.InstantiationAwareBeanPostProcessorAdapter</node>
+    <node x="1269.0217803030303" y="79.0">org.springframework.beans.factory.support.MergedBeanDefinitionPostProcessor</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.springframework.aop.interceptor.AbstractMonitoringInterceptor" target="org.springframework.aop.interceptor.AbstractTraceInterceptor">
+      <point x="0.0" y="-14.5" />
+      <point x="114.0" y="370.0" />
+      <point x="287.5179924242424" y="370.0" />
+      <point x="-62.66666666666666" y="14.5" />
+    </edge>
+    <edge source="org.springframework.scheduling.annotation.AnnotationAsyncExecutionInterceptor" target="org.aopalliance.intercept.MethodInterceptor">
+      <point x="-90.33333333333331" y="-14.5" />
+      <point x="509.35132575757575" y="296.0" />
+      <point x="424.18465909090907" y="296.0" />
+      <point x="37.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.scheduling.annotation.AnnotationAsyncExecutionInterceptor" target="org.springframework.beans.factory.BeanFactoryAware">
+      <point x="90.33333333333337" y="-14.5" />
+      <point x="690.0179924242425" y="296.0" />
+      <point x="676.066287878788" y="296.0" />
+      <point x="-36.25" y="14.5" />
+    </edge>
+    <edge source="org.springframework.aop.interceptor.AbstractTraceInterceptor" target="org.aopalliance.intercept.MethodInterceptor">
+      <point x="0.0" y="-14.5" />
+      <point x="-37.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.beans.factory.support.MergedBeanDefinitionPostProcessor" target="org.springframework.beans.factory.config.BeanPostProcessor">
+      <point x="0.0" y="-14.5" />
+      <point x="1398.0217803030303" y="54.0" />
+      <point x="1300.1041666666665" y="54.0" />
+      <point x="37.25" y="14.5" />
+    </edge>
+    <edge source="org.springframework.beans.factory.config.InstantiationAwareBeanPostProcessorAdapter" target="org.springframework.beans.factory.config.SmartInstantiationAwareBeanPostProcessor">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor" target="org.springframework.beans.factory.BeanFactoryAware">
+      <point x="-106.125" y="-14.5" />
+      <point x="888.6467803030304" y="296.0" />
+      <point x="748.566287878788" y="296.0" />
+      <point x="36.25" y="14.5" />
+    </edge>
+    <edge source="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor" target="org.springframework.beans.factory.config.InstantiationAwareBeanPostProcessorAdapter">
+      <point x="35.375" y="-14.5" />
+      <point x="1030.1467803030305" y="286.0" />
+      <point x="1115.5217803030305" y="286.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.aopalliance.intercept.Interceptor" target="org.aopalliance.aop.Advice">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.aop.interceptor.SimpleTraceInterceptor" target="org.springframework.aop.interceptor.AbstractTraceInterceptor">
+      <point x="0.0" y="-14.5" />
+      <point x="334.0" y="370.0" />
+      <point x="350.18465909090907" y="370.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.aop.interceptor.CustomizableTraceInterceptor" target="org.springframework.aop.interceptor.AbstractTraceInterceptor">
+      <point x="0.0" y="-14.5" />
+      <point x="553.0" y="370.0" />
+      <point x="412.8513257575757" y="370.0" />
+      <point x="62.66666666666663" y="14.5" />
+    </edge>
+    <edge source="org.springframework.scheduling.annotation.AnnotationAsyncExecutionInterceptor" target="org.springframework.core.Ordered">
+      <point x="0.0" y="-14.5" />
+      <point x="599.684659090909" y="296.0" />
+      <point x="613.5994318181819" y="296.0" />
+      <point x="613.5994318181819" y="212.0" />
+      <point x="827.316287878788" y="212.0" />
+      <point x="-20.5" y="14.5" />
+    </edge>
+    <edge source="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor" target="org.springframework.core.PriorityOrdered">
+      <point x="-35.375" y="-14.5" />
+      <point x="959.3967803030304" y="286.0" />
+      <point x="874.0217803030304" y="286.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.beans.factory.config.SmartInstantiationAwareBeanPostProcessor" target="org.springframework.beans.factory.config.InstantiationAwareBeanPostProcessor">
+      <point x="-1.1368683772161603E-13" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor" target="org.springframework.beans.factory.support.MergedBeanDefinitionPostProcessor">
+      <point x="106.125" y="-14.5" />
+      <point x="1100.8967803030305" y="296.0" />
+      <point x="1398.0217803030303" y="296.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.beans.factory.config.InstantiationAwareBeanPostProcessor" target="org.springframework.beans.factory.config.BeanPostProcessor">
+      <point x="0.0" y="-14.5" />
+      <point x="1115.5217803030303" y="54.0" />
+      <point x="1225.6041666666665" y="54.0" />
+      <point x="-37.25" y="14.5" />
+    </edge>
+    <edge source="org.springframework.core.PriorityOrdered" target="org.springframework.core.Ordered">
+      <point x="0.0" y="-14.5" />
+      <point x="874.0217803030304" y="212.0" />
+      <point x="868.316287878788" y="212.0" />
+      <point x="20.5" y="14.5" />
+    </edge>
+    <edge source="org.aopalliance.intercept.MethodInterceptor" target="org.aopalliance.intercept.Interceptor">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.aop.interceptor.PerformanceMonitorInterceptor" target="org.springframework.aop.interceptor.AbstractMonitoringInterceptor">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="org.springframework.beans.factory.BeanFactoryAware" target="org.springframework.beans.factory.Aware">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="764.0" y="251.5" />
+  <SelectedNodes>
+    <node>org.springframework.aop.interceptor.CustomizableTraceInterceptor</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
